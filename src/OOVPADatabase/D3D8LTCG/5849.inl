@@ -871,3 +871,13 @@ OOVPA_NO_XREF(D3DDevice_SetShaderConstantMode_0, 2156, 13)
         { 0x23B, 0x5B },
         { 0x23C, 0xC3 },
 OOVPA_END;
+
+// ******************************************************************
+// * D3D_LazySetState
+// ******************************************************************
+OOVPA_NO_XREF(D3D_LazySetState, 2156, 10)
+
+    // TODO: Better pattern
+     OV_MATCH(0x00, 0x53, 0x8B, 0x1D, 0x50, 0xFB, 0x35, 0x00, 0xF6, 0xC7, 0x01),
+
+OOVPA_END;

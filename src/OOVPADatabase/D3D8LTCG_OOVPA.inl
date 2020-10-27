@@ -239,6 +239,7 @@ OOVPATable D3D8LTCG_OOVPA[] = {
     REGISTER_OOVPAS(Get2DSurfaceDesc_4, 2048),
     REGISTER_OOVPAS(Lock3DSurface_16, 2048),
     REGISTER_OOVPAS(Lock2DSurface_16, 2048),
+    REGISTER_OOVPAS(D3D_LazySetState, 2156),
 };
 
 // ******************************************************************
